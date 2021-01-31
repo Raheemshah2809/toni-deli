@@ -1,6 +1,9 @@
 .nav {
-	color: $color-white;
-
+	background-color: $color-white;
+	position: sticky;
+	top: 0;
+	left: 0;
+	z-index: 5;
 	&__wrapper {
 		margin: 0 auto;
 		max-width: 50rem;
@@ -10,6 +13,23 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+	}
+
+	&__items {
+		&::after {
+			content: '';
+			display: block;
+			margin: auto;
+			height: 3px;
+			width: 0px;
+			background: transparent;
+			transition: width 0.5s ease, background-color 0.5s ease;
+		}
+
+		&:hover::after {
+			width: 100%;
+			background: $color-primary;
+		}
 	}
 
 	&__items a {
