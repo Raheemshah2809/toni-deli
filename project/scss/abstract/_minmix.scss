@@ -1,0 +1,39 @@
+@mixin header-1 {
+	font-family: $header-1;
+	font-size: 6rem;
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: normal;
+	line-height: 5rem;
+	text-transform: uppercase;
+}
+
+@mixin header-2 {
+	font-family: $header-2;
+	font-size: 4.8rem;
+	font-style: italic;
+	font-weight: 600;
+	letter-spacing: normal;
+	line-height: 3.6rem;
+	text-transform: none;
+}
+
+@mixin content-1 {
+	font-family: $content-1;
+	font-size: 2.2rem;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: normal;
+	line-height: 1.8rem;
+	text-transform: none;
+}
+
+@mixin content-2 {
+	font-family: $content-2;
+	font-size: 1.8rem;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: normal;
+	line-height: 1.8rem;
+	text-transform: none;
+}

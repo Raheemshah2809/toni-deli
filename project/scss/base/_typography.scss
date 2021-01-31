@@ -1,0 +1,47 @@
+@font-face {
+	font-family: 'Futura';
+	src: url('../font/FuturaCondMedium.woff2') format('woff2'), url('../font/FuturaCondMedium.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gotham';
+	src: url('../font/Gotham-Bold.woff2') format('woff2'), url('../font/Gotham-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gotham';
+	src: url('../font/Gotham-Bold.woff2') format('woff2'), url('../font/Gotham-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gotham';
+	src: url('../font/Gotham-BoldItalic.woff2') format('woff2'), url('../font/Gotham-BoldItalic.woff') format('woff');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+.heading {
+	@include header-1;
+}
+
+.heading-2 {
+	@include header-2;
+}
+
+.text-1 {
+	@include content-1;
+}
+
+.text-2 {
+	@include content-2;
+}
