@@ -1,0 +1,28 @@
+.nav {
+	color: $color-white;
+
+	&__wrapper {
+		margin: 0 auto;
+		max-width: 50rem;
+	}
+
+	&__list {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__items a {
+		color: $color-secondary;
+		text-transform: uppercase;
+		font-family: $header-1;
+		font-size: 2rem;
+		font-weight: 700;
+		transition: 0.5s all;
+		padding: 2.5rem 0;
+
+		&:hover {
+			color: $color-primary;
+		}
+	}
+}
