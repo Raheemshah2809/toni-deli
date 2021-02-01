@@ -1,0 +1,51 @@
+@media (max-width: 768px) {
+	// NAVIGATION
+	.nav {
+		display: none;
+		background-color: $color-white;
+		&__list {
+			flex-direction: column;
+		}
+
+		&__logo {
+			order: 1;
+			padding: 1rem;
+		}
+
+		&__items {
+			order: 2;
+			padding: 1rem;
+
+			& a {
+				color: $color-secondary;
+				padding: 1rem;
+			}
+		}
+	}
+
+	// HEADER
+	.header {
+		margin-top: 0;
+
+		&__text {
+			margin-top: 15rem;
+		}
+
+		&__title {
+			&--primary {
+				font-size: 8rem;
+				line-height: 8rem;
+
+				&:hover {
+					transform: none;
+				}
+			}
+
+			&--secondary {
+				font-size: 4rem;
+			}
+		}
+	}
+
+	// BTN
+}
