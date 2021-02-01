@@ -29,3 +29,10 @@
 	font-style: italic;
 	font-display: swap;
 }
+
+.type__title {
+	@include header-2;
+	margin-bottom: 4rem;
+	color: $color-primary;
+	text-transform: uppercase;
+}

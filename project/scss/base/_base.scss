@@ -5,6 +5,9 @@ html {
 body {
 	box-sizing: border-box;
 	font-size: 1.6rem;
+	background-color: $color-secondary;
+	border-left: 1.5rem solid $color-primary;
+	border-right: 1.5rem solid $color-primary;
 }
 
 ul {
