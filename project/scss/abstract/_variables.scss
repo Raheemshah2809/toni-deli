@@ -2,6 +2,11 @@
 $color-primary: #e4091d;
 $color-secondary: #261c13;
 $color-white: #f8fffd;
+$color-black: #111111;
+
+// SHADOWS
+$shadow-primary: 0 0.7rem 0 $color-primary;
+$shadow-nav: 0 0.3rem 2rem rgba($color-black, 0.3);
 
 // FONT
 $header-1: 'Gotham', Helvetica, Arial, sans-serif;

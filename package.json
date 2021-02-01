@@ -1,0 +1,23 @@
+{
+  "name": "Toni-s-Deli-Client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danil0man/toni-deli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danil0man/toni-deli/issues"
+  },
+  "homepage": "https://github.com/danil0man/toni-deli#readme",
+  "devDependencies": {
+    "eslint": "^7.19.0"
+  }
+}

@@ -1,9 +1,9 @@
 .nav {
-	background-color: $color-white;
 	position: sticky;
 	top: 0;
 	left: 0;
 	z-index: 5;
+	transition: 0.5s all;
 	&__wrapper {
 		margin: 0 auto;
 		max-width: 50rem;
@@ -33,7 +33,7 @@
 	}
 
 	&__items a {
-		color: $color-secondary;
+		color: $color-white;
 		text-transform: uppercase;
 		font-family: $header-1;
 		font-size: 2rem;
@@ -44,5 +44,13 @@
 		&:hover {
 			color: $color-primary;
 		}
+	}
+}
+
+.nav__scrolled {
+	background-color: $color-white;
+	box-shadow: $shadow-nav;
+	& a {
+		color: $color-secondary;
 	}
 }
