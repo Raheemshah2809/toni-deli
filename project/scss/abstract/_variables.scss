@@ -6,6 +6,9 @@ $color-black: #111111;
 $color-grey-light: #c2b2b2;
 $color-grey-dark: #444;
 
+// GRADIENTS
+$gradient-blue: linear-gradient(120deg, #050fed, #1039db, #1759ea, #030580, #190567);
+
 // SHADOWS
 $shadow-primary: 0 0.7rem 0 $color-primary;
 $shadow-nav: 0 0.3rem 2rem rgba($color-black, 0.3);
