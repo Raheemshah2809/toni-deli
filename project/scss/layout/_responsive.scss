@@ -46,4 +46,47 @@
 			}
 		}
 	}
+
+	// FOOD CARDS
+	.food__card {
+		background: $color-primary;
+		box-shadow: $shadow-card;
+		transition: none !important;
+
+		h3 {
+			color: $color-white;
+		}
+
+		p {
+			color: $color-white;
+		}
+
+		&:hover {
+			transform: none;
+
+			img {
+				transform: none;
+			}
+		}
+	}
+
+	.special--long {
+		font-size: 3.2rem !important;
+		line-height: 4rem !important;
+	}
+
+	.time-box {
+		margin-bottom: 4rem !important;
+	}
+
+	// FOOTER
+	.contact {
+		text-align: center;
+		padding-bottom: 4rem;
+		border-bottom: 2px solid $color-primary;
+	}
+
+	.copyright {
+		padding: 1rem;
+	}
 }

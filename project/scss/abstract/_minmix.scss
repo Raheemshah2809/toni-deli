@@ -14,7 +14,7 @@
 	font-style: italic;
 	font-weight: 600;
 	letter-spacing: normal;
-	line-height: 3.6rem;
+	line-height: 6rem;
 	text-transform: none;
 }
 
@@ -36,4 +36,13 @@
 	letter-spacing: normal;
 	line-height: 1.8rem;
 	text-transform: none;
+}
+
+@mixin blue-gradient {
+	background-image: blue; // Fallback Color
+	background-image: $gradient-blue;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	color: transparent;
 }

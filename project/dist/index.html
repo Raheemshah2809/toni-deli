@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toni's Deli</title>
+    <!-- Needs to be changed to Owners. Limited Number -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -16,11 +18,11 @@
             <!-- Navigation List -->
             <ul class="nav__list">
                 <li class="nav__items"><a href="#">Home</a></li>
-                <li class="nav__items"><a href="#">Order</a></li>
+                <li class="nav__items"><a href="#order">Order</a></li>
                 <!-- Nav Logo -->
                 <li class="nav__logo"><img src="img/125x105_Transparent.png" alt="toni's deli"></li>
-                <li class="nav__items"><a href="#">Menu</a></li>
-                <li class="nav__items"><a href="#">Contact</a></li>
+                <li class="nav__items"><a href="#menu">Menu</a></li>
+                <li class="nav__items"><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -39,11 +41,11 @@
 
     <main>
         <!-- Menu Section -->
-        <section class="section-menu">
+        <section class="section-menu" id="menu">
             <div class="section__wrapper">
                 <!-- Special Title -->
                 <h2 class="type__title">Special's</h2>
-                <!-- Food container -->
+                <!-- Specials container -->
                 <div class="food u-margin-bottom-large">
                     <!-- Food Card -->
                     <div class="food__card">
@@ -86,7 +88,7 @@
                 <!-- Burger Title -->
                 <h2 class="type__title">Burgers</h2>
 
-                <!-- Food container -->
+                <!-- Burgers container -->
                 <div class="food u-margin-bottom-large">
                     <!-- Food Card -->
                     <div class="food__card">
@@ -117,7 +119,7 @@
                     <!-- Food Card -->
                     <div class="food__card">
                         <!-- Card Title -->
-                        <h3 class="food__title">The <span class="special">Mozzarella</span> Burger</h3>
+                        <h3 class="food__title">The <span class="special special--long">Mozzarella</span> Burger</h3>
                         <!-- Card Description -->
                         <p class="food__desc">1x Beef Patty & 3x Breaded Mozarella Sticks Stacked in a Brioche Bun with Cheese,Salad and Special Homemade Sauce
                             Make it a meal for £2.50 Extra</p>
@@ -141,11 +143,242 @@
                     </div>
                 </div>
 
+                <!-- Others Title -->
+                <h2 class="type__title">Others</h2>
+
+                <!-- Others container -->
+                <div class="food u-margin-bottom-large food__large">
+                    <!-- Food Card -->
+                    <div class="food__card">
+                        <!-- Card Title -->
+                        <h3 class="food__title">The <span class="special">4D</span> Burger</h3>
+                        <!-- Card Description -->
+                        <p class="food__desc">4X Beef Patties Stacked In a Brioche Bun with Cheese, Salad and Special Homemade Sauce
+                            Make it a meal for £2.50 Extra</p>
+                        <!-- Card Image -->
+                        <img src="img/burgers/4d.png" alt="special wings" class="food__img">
+                        <!-- Card Price -->
+                        <h3 class="food__price">£10.00</h3>
+                    </div>
+
+                    <!-- Food Card -->
+                    <div class="food__card">
+                        <!-- Card Title -->
+                        <h3 class="food__title">The <span class="special">Trio</span> Burger</h3>
+                        <!-- Card Description -->
+                        <p class="food__desc">3 Patties, 2X Beef ,1X Chicken Stacked in a Brioche Bun with Cheese, Salad & Special Homemade Sauce
+                            Make it a meal for £2.50 Extra</p>
+                        <!-- Card Image -->
+                        <img src="img/burgers/trio.png" alt="special wings" class="food__img">
+                        <!-- Card Price -->
+                        <h3 class="food__price">£7.50</h3>
+                    </div>
+
+                    <!-- Food Card -->
+                    <div class="food__card">
+                        <!-- Card Title -->
+                        <h3 class="food__title">The <span class="special special--long">Mozzarella</span> Burger</h3>
+                        <!-- Card Description -->
+                        <p class="food__desc">1x Beef Patty & 3x Breaded Mozarella Sticks Stacked in a Brioche Bun with Cheese,Salad and Special Homemade Sauce
+                            Make it a meal for £2.50 Extra</p>
+                        <!-- Card Image -->
+                        <img src="img/burgers/mozarella.png" alt="special wings" class="food__img">
+                        <!-- Card Price -->
+                        <h3 class="food__price">£5.00</h3>
+                    </div>
+
+                    <!-- Food Card -->
+                    <div class="food__card">
+                        <!-- Card Title -->
+                        <h3 class="food__title">The <span class="special">Plain Jane</span> Burger</h3>
+                        <!-- Card Description -->
+                        <p class="food__desc">Chicken or Beef Patties Stacked in a Brioche bun with Cheese,Salad,Special Toni's Homemade sauce
+                            Make it a meal for £2.50 Extra</p>
+                        <!-- Card Image -->
+                        <img src="img/burgers/plain_jane.png" alt="special wings" class="food__img">
+                        <!-- Card Price -->
+                        <h3 class="food__price">£5.00</h3>
+                    </div>
+
+                    <!-- Food Card -->
+                    <div class="food__card">
+                        <!-- Card Title -->
+                        <h3 class="food__title">The <span class="special">Plain Jane</span> Burger</h3>
+                        <!-- Card Description -->
+                        <p class="food__desc">Chicken or Beef Patties Stacked in a Brioche bun with Cheese,Salad,Special Toni's Homemade sauce
+                            Make it a meal for £2.50 Extra</p>
+                        <!-- Card Image -->
+                        <img src="img/burgers/plain_jane.png" alt="special wings" class="food__img">
+                        <!-- Card Price -->
+                        <h3 class="food__price">£5.00</h3>
+                    </div>
+                </div>
+
+                <!-- Desserts Title -->
+                <h2 class="type__title">Desserts</h2>
+
+                <!-- Desserts container -->
+                <div class="food u-margin-bottom-large">
+                    <!-- Food Card -->
+                    <div class="food__card">
+                        <!-- Card Title -->
+                        <h3 class="food__title">The <span class="special">4D</span> Burger</h3>
+                        <!-- Card Description -->
+                        <p class="food__desc">4X Beef Patties Stacked In a Brioche Bun with Cheese, Salad and Special Homemade Sauce
+                            Make it a meal for £2.50 Extra</p>
+                        <!-- Card Image -->
+                        <img src="img/burgers/4d.png" alt="special wings" class="food__img">
+                        <!-- Card Price -->
+                        <h3 class="food__price">£10.00</h3>
+                    </div>
+
+                    <!-- Food Card -->
+                    <div class="food__card">
+                        <!-- Card Title -->
+                        <h3 class="food__title">The <span class="special">Trio</span> Burger</h3>
+                        <!-- Card Description -->
+                        <p class="food__desc">3 Patties, 2X Beef ,1X Chicken Stacked in a Brioche Bun with Cheese, Salad & Special Homemade Sauce
+                            Make it a meal for £2.50 Extra</p>
+                        <!-- Card Image -->
+                        <img src="img/burgers/trio.png" alt="special wings" class="food__img">
+                        <!-- Card Price -->
+                        <h3 class="food__price">£7.50</h3>
+                    </div>
+
+                    <!-- Food Card -->
+                    <div class="food__card">
+                        <!-- Card Title -->
+                        <h3 class="food__title">The <span class="special special--long">Mozzarella</span> Burger</h3>
+                        <!-- Card Description -->
+                        <p class="food__desc">1x Beef Patty & 3x Breaded Mozarella Sticks Stacked in a Brioche Bun with Cheese,Salad and Special Homemade Sauce
+                            Make it a meal for £2.50 Extra</p>
+                        <!-- Card Image -->
+                        <img src="img/burgers/mozarella.png" alt="special wings" class="food__img">
+                        <!-- Card Price -->
+                        <h3 class="food__price">£5.00</h3>
+                    </div>
+
+                </div>
+
+                <!-- Shakes & Sweets Title -->
+                <h2 class="type__title">Shakes & Sweets</h2>
+
+                <!-- Shakes & Sweets container -->
+                <div class="food u-margin-bottom-large">
+                    <!-- Food Card -->
+                    <div class="food__card">
+                        <!-- Card Title -->
+                        <h3 class="food__title">The <span class="special">4D</span> Burger</h3>
+                        <!-- Card Description -->
+                        <p class="food__desc">4X Beef Patties Stacked In a Brioche Bun with Cheese, Salad and Special Homemade Sauce
+                            Make it a meal for £2.50 Extra</p>
+                        <!-- Card Image -->
+                        <img src="img/burgers/4d.png" alt="special wings" class="food__img">
+                        <!-- Card Price -->
+                        <h3 class="food__price">£10.00</h3>
+                    </div>
+
+                    <!-- Food Card -->
+                    <div class="food__card">
+                        <!-- Card Title -->
+                        <h3 class="food__title">The <span class="special">Trio</span> Burger</h3>
+                        <!-- Card Description -->
+                        <p class="food__desc">3 Patties, 2X Beef ,1X Chicken Stacked in a Brioche Bun with Cheese, Salad & Special Homemade Sauce
+                            Make it a meal for £2.50 Extra</p>
+                        <!-- Card Image -->
+                        <img src="img/burgers/trio.png" alt="special wings" class="food__img">
+                        <!-- Card Price -->
+                        <h3 class="food__price">£7.50</h3>
+                    </div>
+
+                    <!-- Food Card -->
+                    <div class="food__card">
+                        <!-- Card Title -->
+                        <h3 class="food__title">The <span class="special special--long">Mozzarella</span> Burger</h3>
+                        <!-- Card Description -->
+                        <p class="food__desc">1x Beef Patty & 3x Breaded Mozarella Sticks Stacked in a Brioche Bun with Cheese,Salad and Special Homemade Sauce
+                            Make it a meal for £2.50 Extra</p>
+                        <!-- Card Image -->
+                        <img src="img/burgers/mozarella.png" alt="special wings" class="food__img">
+                        <!-- Card Price -->
+                        <h3 class="food__price">£5.00</h3>
+                    </div>
+
+                </div>
+
             </div>
         </section>
 
+        <!-- Review Section Here -->
+        <section class="section-review">
+            Review Section here
+        </section>
+
+        <!-- Order Section Here -->
+        <section class="section-order" id="order">
+            <div class="section__wrapper">
+                <!-- Order Title -->
+                <h2 class="type__title u-margin-bottom-medium">Ready to Order?</h2>
+                <!-- Order Container -->
+                <div class="order__container">
+                    <!-- Order Card Open Hours -->
+                    <div class="time-box box">
+                        <h3 class="box__title">Opening Hours</h3>
+                        <p class="box__day">Monday - Friday</p>
+                        <p class="box__time">10.00 - 20.00 </p>
+                        <p class="box__day">Saturday - Sundays</p>
+                        <p class="box__time">12.00 - 20.00 </p>
+                    </div>
+                    <!-- Telephone -->
+                    <div class="box">
+                        <h3 class="box__title">Telephone</h3>
+                        <i class="fas fa-phone-alt fa-4x icon"></i>
+                        <a class="box__link" href="tel:+447746578308">+44 77465 78308</a>
+                    </div>
+                    <!-- WhatsApp -->
+                    <div class="box">
+                        <h3 class="box__title">WhatsApp</h3>
+                        <i class="fab fa-whatsapp-square fa-4x icon"></i>
+                        <a class="box__link" href="https://wa.me/+447746578308">+44 77465 78308</a>
+                    </div>
+                    <!-- Instagram DM -->
+                    <div class="box">
+                        <h3 class="box__title">Instagram DM</h3>
+                        <i class="fab fa-instagram fa-4x icon"></i>
+                        <a class="box__link" href="https://www.instagram.com/tonisdeli/">instagram.com/tonisdeli</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- Footer Container -->
+        <div class="footer__container">
+            <div class="footer__logo">
+                <img src="img/512x512_Transparent.png" class="footer__logo--img" alt="toni big logo">
+            </div>
+            <div class="footer__container--text">
+                <!-- Contact Area -->
+                <div class="contact" id="contact">
+                    <h3 class="contact__title">You can find us at</h3>
+                    <p class="contact__adress">Terrace Park, Manor Royal</p>
+                    <h3 class="contact__title">Email us at</h3>
+                    <a href="mailto:Tonisdelilgw@gmail.com" class="contact__email">Tonisdelilgw@gmail.com</a>
+                </div>
+                <!-- Copyright Area -->
+                <div class="copyright">
+                    <p class="copyright__details">This site was made by Danny Castillo and Raheem</p>
+                    <p class="copyright__details"><span class="copy">&copy;2021</span> Raheem Shah, All Right Reserved </p>
+                    <div class="copyright__links">
+                        <a href="https://fluorescentideasltd.com/">Fluorescent Ideas</a>
+                        <a href="https://raheemshahdev.engineer/index.html">Contact Raheem</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
     <script src="js/script.js"></script>

@@ -1,0 +1,68 @@
+.footer {
+	background-color: $color-secondary;
+	padding: 0 0 4rem;
+
+	&__container--text {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+	&__logo {
+		text-align: center;
+		padding: 2rem 0;
+
+		&--img {
+			width: 20rem;
+		}
+	}
+}
+
+.contact {
+	margin-bottom: 2rem;
+	&__title {
+		text-transform: uppercase;
+		font-family: $content-1;
+		font-size: 2.6rem;
+		color: $color-white;
+		margin-bottom: 0.5rem;
+	}
+
+	&__adress {
+		color: $color-primary;
+		font-family: $content-1;
+		margin-bottom: 2rem;
+	}
+
+	&__email {
+		color: $color-primary;
+		font-family: $content-1;
+		margin-bottom: 2rem;
+	}
+}
+
+.copyright {
+	text-align: center;
+	&__details {
+		font-size: 1.6rem;
+		font-family: $content-1;
+		color: $color-white;
+		margin-bottom: 2rem;
+	}
+
+	&__links {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+		& a {
+			font-family: $content-1;
+			color: $color-primary;
+		}
+	}
+}
+
+.copy {
+	color: $color-primary;
+}
