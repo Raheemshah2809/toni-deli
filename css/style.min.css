@@ -453,12 +453,11 @@ a {
 
 @media (max-width: 768px) {
     .nav {
-        display: sticky;
         background-color: #f8fffd;
-        position: sticky;
+        position: unset;
         top: 0;
+}
 
-    }
 
     .nav__list {
         flex-direction: column
