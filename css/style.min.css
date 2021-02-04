@@ -455,6 +455,8 @@ a {
     .nav {
         display: sticky;
         background-color: #f8fffd;
+        position: sticky;
+        top: 0;
 
     }
 
