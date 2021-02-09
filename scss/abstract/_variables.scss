@@ -1,5 +1,6 @@
 // COLOR
 $color-primary: #e4091d;
+$color-primary-light: #ff2b3e;
 $color-secondary: #261c13;
 $color-white: #f8fffd;
 $color-black: #111111;
@@ -7,7 +8,14 @@ $color-grey-light: #c0c0c0;
 $color-grey-dark: #444;
 
 // GRADIENTS
-$gradient-blue: linear-gradient(120deg, #050fed, #1039db, #1759ea, #030580, #190567);
+$gradient-blue: linear-gradient(
+	120deg,
+	#050fed,
+	#1039db,
+	#1759ea,
+	#030580,
+	#190567
+);
 
 // SHADOWS
 $shadow-primary: 0 0.7rem 0 $color-primary;
