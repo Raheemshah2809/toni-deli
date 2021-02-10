@@ -32,7 +32,8 @@ a {
 
 @font-face {
 	font-family: 'Futura';
-	src: url('../font/FuturaCondMedium.woff2') format('woff2'), url('../font/FuturaCondMedium.woff') format('woff');
+	src: url('../font/FuturaCondMedium.woff2') format('woff2'),
+		url('../font/FuturaCondMedium.woff') format('woff');
 	font-weight: 100;
 	font-style: normal;
 	font-display: swap;
@@ -40,7 +41,8 @@ a {
 
 @font-face {
 	font-family: 'Gotham';
-	src: url('../font/Gotham-Bold.woff2') format('woff2'), url('../font/Gotham-Bold.woff') format('woff');
+	src: url('../font/Gotham-Bold.woff2') format('woff2'),
+		url('../font/Gotham-Bold.woff') format('woff');
 	font-weight: bold;
 	font-style: normal;
 	font-display: swap;
@@ -48,7 +50,8 @@ a {
 
 @font-face {
 	font-family: 'Gotham';
-	src: url('../font/Gotham-Bold.woff2') format('woff2'), url('../font/Gotham-Bold.woff') format('woff');
+	src: url('../font/Gotham-Bold.woff2') format('woff2'),
+		url('../font/Gotham-Bold.woff') format('woff');
 	font-weight: bold;
 	font-style: normal;
 	font-display: swap;
@@ -56,7 +59,8 @@ a {
 
 @font-face {
 	font-family: 'Gotham';
-	src: url('../font/Gotham-BoldItalic.woff2') format('woff2'), url('../font/Gotham-BoldItalic.woff') format('woff');
+	src: url('../font/Gotham-BoldItalic.woff2') format('woff2'),
+		url('../font/Gotham-BoldItalic.woff') format('woff');
 	font-weight: bold;
 	font-style: italic;
 	font-display: swap;
@@ -309,13 +313,13 @@ a {
 }
 
 .contact__adress {
-	color: #e4091d;
+	color: #ff2b3f;
 	font-family: 'Gotham', Helvetica, Arial, sans-serif;
 	margin-bottom: 2rem;
 }
 
 .contact__email {
-	color: #e4091d;
+	color: #ff2b3f;
 	font-family: 'Gotham', Helvetica, Arial, sans-serif;
 	margin-bottom: 2rem;
 }
@@ -339,16 +343,21 @@ a {
 
 .copyright__links a {
 	font-family: 'Gotham', Helvetica, Arial, sans-serif;
-	color: #e4091d;
+	color: #ff2b3f;
 }
 
 .copy {
-	color: #e4091d;
+	color: #ff2b3f;
 }
 
 .header {
 	height: 100vh;
-	background: linear-gradient(to left bottom, rgba(17, 17, 17, 0.5), rgba(17, 17, 17, 0.8)), url(../img/bg2.jpg);
+	background: linear-gradient(
+			to left bottom,
+			rgba(17, 17, 17, 0.5),
+			rgba(17, 17, 17, 0.8)
+		),
+		url(../img/bg2.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: bottom center;
@@ -594,7 +603,7 @@ a {
 .a1b1 {
 	color: black;
 	text-align: center;
-	
+
 	font-family: 'Gotham', Helvetica, Arial, sans-serif;
 	position: relative;
 	top: 50px;
