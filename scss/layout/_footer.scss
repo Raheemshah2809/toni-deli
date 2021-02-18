@@ -30,13 +30,13 @@
 	}
 
 	&__adress {
-		color: $color-primary;
+		color: $color-primary-light;
 		font-family: $content-1;
 		margin-bottom: 2rem;
 	}
 
 	&__email {
-		color: $color-primary;
+		color: $color-primary-light;
 		font-family: $content-1;
 		margin-bottom: 2rem;
 	}
@@ -58,11 +58,11 @@
 
 		& a {
 			font-family: $content-1;
-			color: $color-primary;
+			color: $color-primary-light;
 		}
 	}
 }
 
 .copy {
-	color: $color-primary;
+	color: $color-primary-light;
 }
