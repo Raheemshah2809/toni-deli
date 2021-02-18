@@ -1,0 +1,37 @@
+.reviewt1 {
+	text-align: center;
+	font-family: $content-1;
+	font-size: 3rem;
+}
+
+.slide-container {
+	margin: 0 auto;
+	width: 90%;
+	overflow-x: hidden;
+}
+
+.slides {
+	display: flex;
+	width: 100%;
+}
+.slide {
+	min-width: 100%;
+	padding: 2rem 1rem;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	border: none;
+}
+
+.testimonial {
+	font-size: 2.4rem;
+	font-family: $content-1;
+}
+
+.person {
+	color: $color-primary;
+	font-family: $content-2;
+	font-size: 2rem;
+}
