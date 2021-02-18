@@ -31,7 +31,7 @@ let slides = document.querySelectorAll('.slide');
 
 // Carousel Affects
 let index = 1;
-const interval = 5000;
+const interval = 4000;
 let slideId;
 
 // Clones for infitine loop //
