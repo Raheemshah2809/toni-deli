@@ -136,7 +136,17 @@ a {
 	border: 1px solid #f8fffd;
 	position: relative;
 	bottom: 25px;
+}
 
+.btn__primary2 {
+	background-color: transparent;
+	color: black;
+	font-size: 2rem;
+	font-weight: 700;
+	border: 1px solid black;
+	position: relative;
+	bottom: 25px;
+	
 }
 
 .btn__primary:hover {
@@ -601,6 +611,18 @@ a {
 	.copyright {
 		padding: 1rem
 	}
+
+	.btn__primary2 {
+		background-color: transparent;
+		color: black;
+		font-size: 2rem;
+		font-weight: 700;
+		border: 1px solid black;
+		position: relative;
+		bottom: 25px;
+	}
+
+	
 }
 
 .section-menu {
