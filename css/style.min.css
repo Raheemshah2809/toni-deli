@@ -76,6 +76,20 @@ a {
 	text-align: center
 }
 
+.type__title1{
+	font-family: "Futura", "Helvetica Neue", Helvetica, Arial;
+	font-size: 2rem;
+	font-style: italic;
+	font-weight: 600;
+	letter-spacing: normal;
+	line-height: 6rem;
+	text-transform: none;
+	margin-bottom: 4rem;
+	color: #e4091d;
+	text-transform: uppercase;
+	text-align: center
+}
+
 .u-margin-bottom-small {
 	margin-bottom: 2rem
 }
@@ -99,7 +113,9 @@ a {
 	display: inline-block;
 	padding: 1.5rem 4rem;
 	border-radius: 10rem;
-	transition: transform 0.2s, background-color 0.5s, border 0.2s
+	transition: transform 0.2s, background-color 0.5s, border 0.2s;
+	text-align: center;
+	font-family: "Gotham", Helvetica, Arial, sans-serif;
 }
 
 .btn:hover {
@@ -117,8 +133,10 @@ a {
 	color: #f8fffd;
 	font-size: 2rem;
 	font-weight: 700;
-	letter-spacing: 0.2rem;
-	border: 1px solid #f8fffd
+	border: 1px solid #f8fffd;
+	position: relative;
+	bottom: 25px;
+
 }
 
 .btn__primary:hover {
@@ -148,6 +166,13 @@ a {
 
 .food__img {
 	width: 100%;
+	padding: 1rem;
+	margin-top: -5rem;
+	transition: 1s all
+}
+
+.food__img1{
+	width: 102px;
 	padding: 1rem;
 	margin-top: -5rem;
 	transition: 1s all
@@ -189,7 +214,7 @@ a {
 	font-size: 3rem;
 	color: #111;
 	margin-bottom: 1rem;
-	margin-top: -8rem
+	/* margin-top: -8rem; */
 }
 
 .food__card:hover {
